@@ -1,11 +1,11 @@
-About snax
-==========
+About snax-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/snax-feedstock/blob/main/LICENSE.txt)
 
 Home: https://git.ligo.org/snax/snax
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/snax-feedstock/blob/main/LICENSE.txt)
 
 Summary: Stream-based Noise Acquisition and eXtraction toolkit
 
