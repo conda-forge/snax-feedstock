@@ -1,5 +1,5 @@
 {% set name = "snax" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://software.igwn.org/sources/source/{{ name }}-{{ version }}.tar.gz
-  sha256: 2ac5e997d5982f2e6f2b30e63b084bb097c86ca70c498a237a2de517c1a30ed5
+  sha256: 7dccf3d25c43501d4461fa75f82155a32c69bf9334cb3387d27232593a716cac
 
 build:
   noarch: python
