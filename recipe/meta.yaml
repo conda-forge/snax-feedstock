@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -37,6 +37,9 @@ requirements:
     - python-ligo-lw
     - pygobject
     - scipy
+  run_constrained:
+    # https://git.ligo.org/snax/snax/-/issues/7
+    - gobject-introspection <1.80.0a0
 
 test:
   imports:
